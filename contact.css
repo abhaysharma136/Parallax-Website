@@ -1,0 +1,96 @@
+body,
+html {
+    height: 100%;
+    text-align: center;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.8em;
+    font-weight: 400;
+    color: #666;
+    margin-top: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.topnav {
+    background-color: transparent;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a:focus {
+    background-color: #04AA6D;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+.pimg1,
+.pimg2{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 1px;
+}
+.pimg1 {
+    background-image: url('https://wallpapercave.com/wp/wp4557646.jpg');
+    min-height: 100%;
+}
+.ptext {
+    color: white;
+    position: absolute;
+    top: 50%;
+    font-size: 28px;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 8px;
+
+}
+.ptext .border {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    width: fit-content;
+    margin: auto;
+}
+.section-light {
+    background-color: whitesmoke;
+    line-height: 2em;
+    width: auto;
+    height: auto;
+    padding: 50px 80px;
+}
+.subText-contact-whatsapp,.subText-contact-call{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    padding: 20px;
+    width: fit-content;
+    margin: auto;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    box-shadow: 1px 10px 17px 1px rgba(0,0,0,0.75);
+}
