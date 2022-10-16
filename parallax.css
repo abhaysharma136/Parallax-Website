@@ -105,7 +105,7 @@ html {
 }
 
 /* Add an active class to highlight the current page */
-.topnav a:focus {
+.topnav-active {
     background-color: #04AA6D;
     color: white;
 }
@@ -115,3 +115,5 @@ html {
 .topnav .icon {
     display: none;
 }
+
+\About.html
